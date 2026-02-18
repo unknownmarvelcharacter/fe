@@ -1,0 +1,76 @@
+import './App.css';
+
+function App() {
+  return (
+<table className="table table-bordered text-center mt-4">
+        <thead className="table-light">
+          <tr>
+            <th>DAY</th>
+            <th>9:15-10:15</th>
+            <th>10:15-11:15</th>
+            <th>11:15-12:15</th>
+            <th>12:15-1:15</th>
+            <th>1:15-2:00</th>
+            <th>2:00-3:00</th>
+            <th>3:00-4:00</th>
+            <th>4:00-5:00</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="fw-bold">MON</td>
+            <td>FCN-405</td>
+            <td>MATHS-405</td>
+            <td colSpan="2">CP-L3 (B)</td>
+            <td rowSpan="6" className="align-middle fw-bold">LUNCH</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td className="fw-bold">TUE</td>
+            <td colSpan="2">DT-002(B)</td>
+            <td>PYTHON-405</td>
+            <td>MATHS-405</td>
+            <td colSpan="2">FE-L3(B)</td>
+            <td className="align-middle">YOGA 405</td>
+          </tr>
+          <tr>
+            <td className="fw-bold">WED</td>
+            <td colSpan="2">PYTHON-L3(B)</td>
+            <td>FCN-405</td>
+            <td>DT-405</td>
+            <td colSpan="2">FCN-L4(B)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td className="fw-bold">THU</td>
+            <td>MATHS-405</td>
+            <td>PYTHON-405</td>
+            <td>FCN-405</td>
+            <td>DT-405</td>
+            <td colSpan="2">FE-L3(B)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td className="fw-bold">FRI</td>
+            <td colSpan="2">CP-L3(B)</td>
+            <td>PYTHON-405</td>
+            <td>DT-405</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td className="fw-bold">SAT</td>
+            <td colSpan="2">Mentor-Mentee(405)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+  );
+}
+
+export default App;
