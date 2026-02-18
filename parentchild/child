@@ -1,0 +1,11 @@
+function Student({count}){
+    let text=count;
+    return(
+      <>
+      <h3>Hello I'm Child</h3>
+      <p>Count from parent is {text+1}</p>
+      </>
+    );
+  }
+ 
+  export default Student;
